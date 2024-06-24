@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vatra - Zespół Pieśni Tradycyjnych</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6e6e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #556b2f;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+            color: #f0f0f0;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #f0f0f0;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .content {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .members, .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .member, .photo {
+            margin: 1em;
+            padding: 1em;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .member img, .photo img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vatra - Zespół Pieśni Tradycyjnych</h1>
+    </header>
+    <nav>
+        <a href="#about">O nas</a>
+        <a href="#members">Członkinie</a>
+        <a href="#photos">Zdjęcia</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="content">
+        <section id="about">
+            <h2>O nas</h2>
+            <p>Vatra to zespół śpiewający pieśni tradycyjne, folkowe i etno. Naszą misją jest zachowanie i promowanie tradycyjnej muzyki ludowej, której korzenie sięgają wielu kultur i regionów.</p>
+        </section>
+        <section id="members">
+            <h2>Członkinie zespołu</h2>
+            <div class="members">
+                <div class="member">
+                    <img src="https://via.placeholder.com/150" alt="Imię Członkini 1">
+                    <h3>Imię Członkini 1</h3>
+                    <p>Opis członkini 1.</p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/150" alt="Imię Członkini 2">
+                    <h3>Imię Członkini 2</h3>
+                    <p>Opis członkini 2.</p>
+                </div>
+                <!-- Dodaj więcej członkiń w ten sam sposób -->
+            </div>
+        </section>
+        <section id="photos">
+            <h2>Zdjęcia</h2>
+            <div class="photos">
+                <div class="photo">
+                    <img src="https://via.placeholder.com/300" alt="Wydarzenie 1">
+                    <p>Opis zdjęcia z wydarzenia 1.</p>
+                </div>
+                <div class="photo">
+                    <img src="https://via.placeholder.com/300" alt="Wydarzenie 2">
+                    <p>Opis zdjęcia z wydarzenia 2.</p>
+                </div>
+                <!-- Dodaj więcej zdjęć w ten sam sposób -->
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Vatra © 2024</p>
+        <p>Znajdź nas na portalach społecznościowych: 
+            <a href="https://facebook.com">Facebook</a> | 
+            <a href="https://instagram.com">Instagram</a> | 
+            <a href="https://twitter.com">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
